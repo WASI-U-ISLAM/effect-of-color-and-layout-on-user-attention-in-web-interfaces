@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  line-height: 1.6;
+}
+
+.top-menu {
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.top-menu button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.hero p {
+  font-size: 16px;
+}
+
+.btn-enroll {
+  padding: 10px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid #cccccc;
+  padding-top: 15px;
+}
+
+body.A {
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+body.A .btn-enroll {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+}
+
+body.A .card {
+  background-color: #f9f9f9;
+}
+
+body.B {
+  background-color: #f2f2f2;
+  color: #888888;
+  text-align: left;
+}
+
+body.B .btn-enroll {
+  background-color: #cccccc;
+  color: #888888;
+  border: none;
+}
+
+body.B .card {
+  background-color: #e8e8e8;
+}
+
+body.C {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+body.C .btn-enroll {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  float: right;
+}
+
+body.C .card {
+  background-color: #f9f9f9;
+}
+
+body.C .card-offset {
+  margin-top: 25px;
+}
+
+body.D {
+  background-color: #f2f2f2;
+  color: #888888;
+  text-align: center;
+}
+
+body.D .btn-enroll {
+  background-color: #cccccc;
+  color: #888888;
+  border: none;
+  float: right;
+}
+
+body.D .card {
+  background-color: #e8e8e8;
+}
+
+body.D .card-offset {
+  margin-top: 25px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mastering Human-Computer Interaction & Web Design</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body class="A">
+
+  <div class="top-menu">
+    <strong>Switch Template: </strong>
+    <button onclick="setTemplate('A')">Template A (Standard + High Contrast)</button>
+    <button onclick="setTemplate('B')">Template B (Standard + Low Contrast)</button>
+    <button onclick="setTemplate('C')">Template C (Asymmetric + High Contrast)</button>
+    <button onclick="setTemplate('D')">Template D (Asymmetric + Low Contrast)</button>
+  </div>
+
+  <div class="container">
+    <nav class="navbar">
+      <h2>EduTech Course</h2>
+      <div>
+        <a href="#curriculum" style="margin-right: 15px; text-decoration: none; color: inherit;">Curriculum</a>
+        <a href="#about" style="text-decoration: none; color: inherit;">About</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <p style="font-weight: bold; font-size: 13px;">ONLINE ACADEMIC COURSE</p>
+      <h1>Mastering Human-Computer Interaction & Web Design</h1>
+      <p>
+        Learn visual hierarchy, color psychology, and cognitive usability from industry experts.
+        Understand how layout structure and contrast drive human attention.
+      </p>
+      <button class="btn-enroll" onclick="enrollClick()">Enroll Now</button>
+      <p style="font-size: 13px; opacity: 0.8; margin-top: 5px;">★ 4.9 Rating • 1,200+ Students Enrolled</p>
+    </section>
+
+    <section>
+      <h2>Core Learning Modules</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>📐 Visual Hierarchy</h3>
+          <p>Learn F-pattern and Z-pattern reading flows to structure content and guide attention naturally.</p>
+          <small>Module 01 • 2 Weeks</small>
+        </div>
+
+        <div class="card card-offset">
+          <h3>🎨 Color Psychology</h3>
+          <p>Understand contrast ratios, emotional palettes, and button visibility to optimize user focus.</p>
+          <small>Module 02 • 2 Weeks</small>
+        </div>
+
+        <div class="card">
+          <h3>🧠 Cognitive Usability</h3>
+          <p>Reduce user mental effort using Gestalt grouping laws, clear affordances, and clean cards.</p>
+          <small>Module 03 • 2 Weeks</small>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Department of Computer Science • American International University-Bangladesh (AIUB)</p>
+    </footer>
+  </div>
+
+  <script src="../JS/app.js"></script>
+</body>
+</html>
